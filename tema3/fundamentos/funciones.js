@@ -1,4 +1,4 @@
-// función declaativa
+// función declarativa
 function sumar(a, b = 0) {
   return a + b
 }
@@ -17,3 +17,13 @@ const sumaFlechaLineas = (a, b = 0) => {
 }
 //llamada a la función
 console.log(sumaFlechaLineas(2, 3))
+
+//callback
+function sumarTodos(limite, accion) {
+  for (let i = 0; i < limite; i++) {
+    let resultado = accion(1)
+  }
+}
+sumarTodos(3, (i) => {
+  console.log(i)
+})
