@@ -18,3 +18,16 @@ let tutor;
 const AULA = null;
 console.log(typeof CURSO, typeof EDAD, typeof MATRICULADO,
      typeof TUTOR, typeof AULA)
+
+//==== Paso 5: operadores aritméticos ======= \\
+let bocadillos = 2;
+let zumos = 1;
+const SUBTOTAL = bocadillos * PRECIO_BOCADILLO + zumos * PRECIO_ZUMO;
+console.log("Subtotal:", subtotal);
+console.log(10+4 * 2,(10 + 4) * 2);
+console.log("Resto de 17/5:", 16 % 5,)
+
+//==== Paso 6: Textos y conversiones ======= \\
+const saludo = "HOla, " + alumno;
+console.log(saludo);
+console.log('${alumno} tiene ${edad} años y estudia ${curso}"');
